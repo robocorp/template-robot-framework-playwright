@@ -8,11 +8,11 @@ dependencies:
   # https://anaconda.org/search
   - python=3.7.5
   - pip=20.1
-  - nodejs=14.15.4
+  - nodejs=14.17.1
   - pip:
       # Define pip packages here.
       # https://pypi.org/
-      - robotframework-browser==5.1.1
-      - rpaframework==10.3.0 # https://rpaframework.org/releasenotes.html
+      - robotframework-browser==6.0.0
+      - rpaframework==10.8.0 # https://rpaframework.org/releasenotes.html
 rccPostInstall:
   - rfbrowser init
