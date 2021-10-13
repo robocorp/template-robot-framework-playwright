@@ -11,7 +11,7 @@ dependencies:
   - pip=20.1
   - nodejs=14.17.4
   - pip:
-     Define pip packages here. 
+    # Define pip packages here. 
     # https://pypi.org/
     - robotframework-browser==8.0.2
     - rpaframework==11.4.0 # https://rpaframework.org/releasenotes.html
