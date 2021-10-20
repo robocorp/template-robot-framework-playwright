@@ -7,6 +7,7 @@ dependencies:
   # If available, always prefer the conda version of a package, installation will be faster and more efficient.
   # https://anaconda.org/search
   - python=3.7.5
+
   - pip=20.1
   - nodejs=14.17.4
   - pip:
