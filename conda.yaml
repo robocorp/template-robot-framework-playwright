@@ -9,11 +9,11 @@ dependencies:
   - python=3.7.5
 
   - pip=20.1
-  - nodejs=16.13.0
+  - nodejs=16.13.2
   - pip:
       # Define pip packages here.
       # https://pypi.org/
-      - robotframework-browser==11.3.0
-      - rpaframework==12.6.0 # https://rpaframework.org/releasenotes.html
+      - robotframework-browser==11.4.0
+      - rpaframework==12.6.1 # https://rpaframework.org/releasenotes.html
 rccPostInstall:
   - rfbrowser init
