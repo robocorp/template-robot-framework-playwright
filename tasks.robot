@@ -1,6 +1,8 @@
 *** Settings ***
-Documentation     Playwright template.
-Library           RPA.Browser.Playwright
+Documentation       Playwright template.
+
+Library             RPA.Browser.Playwright
+
 
 *** Tasks ***
 Minimal task
