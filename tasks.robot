@@ -6,4 +6,5 @@ Library             RPA.Browser.Playwright
 
 *** Tasks ***
 Minimal task
-    Open Browser    https://robocorp.com/docs/development-guide/browser/playwright
+    New Browser     headless=${False}  # starts in headless in Control Room
+    New Page    https://robocorp.com/docs/development-guide/browser/playwright
