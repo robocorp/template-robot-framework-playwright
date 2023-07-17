@@ -1,4 +1,4 @@
-# Template: Robot Framework Browser (Playwright)
+# Template: Robot Framework - Browser automation with Playwright
 
 Want to build a [Playwright](https://playwright.dev/)-based browser robot? Great!
 
