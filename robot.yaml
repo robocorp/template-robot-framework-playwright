@@ -3,7 +3,7 @@
 
 tasks:
   # Task names here are used when executing the bots, so renaming these is recommended.
-  Run all tasks:
+  Browser Example:
     shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
 
 environmentConfigs:
