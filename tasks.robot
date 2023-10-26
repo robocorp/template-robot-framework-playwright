@@ -18,7 +18,7 @@ Complete the challenge
 
 *** Keywords ***
 Start the challenge
-    Open Browser    headless=False
+    Open Browser
     New Page    http://rpachallenge.com/
     RPA.HTTP.Download
     ...    http://rpachallenge.com/assets/downloadFiles/challenge.xlsx
