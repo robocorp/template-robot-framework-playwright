@@ -12,7 +12,7 @@ dependencies:
   - nodejs=18.17.1                    # https://github.com/nodejs/node/blob/main/CHANGELOG.md
   - pip:
     - robotframework-browser==17.5.2  # https://github.com/MarketSquare/robotframework-browser/releases
-    - rpaframework==27.4.2            # https://rpaframework.org/releasenotes.html
+    - rpaframework==27.5.1            # https://rpaframework.org/releasenotes.html
 
 rccPostInstall:
   - rfbrowser init                    # Initialize Playwright
