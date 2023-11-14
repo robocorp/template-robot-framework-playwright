@@ -49,5 +49,5 @@ Fill and submit the form
     Click    input[type=submit]
 
 Collect the results
-    Take Screenshot    css:div.congratulations
+    Take Screenshot    selector=css=div.congratulations
     Close Browser
