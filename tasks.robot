@@ -18,7 +18,7 @@ Complete the challenge
 
 *** Keywords ***
 Start the challenge
-    Open Browser
+    New Browser
     New Page    http://rpachallenge.com/
     RPA.HTTP.Download
     ...    http://rpachallenge.com/assets/downloadFiles/challenge.xlsx
@@ -49,5 +49,5 @@ Fill and submit the form
     Click    input[type=submit]
 
 Collect the results
-    Take Screenshot    selector=css=div.congratulations
+    Take Screenshot  %{ROBOT_ARTIFACTS}${/}result.png  selector=css=div.congratulations
     Close Browser
