@@ -6,13 +6,12 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.10.12                    # https://pyreadiness.org/3.10
-  - pip=23.2.1                        # https://pip.pypa.io/en/stable/news
+  - python=3.10.14                    # https://pyreadiness.org/3.10
+  - pip=24.0                          # https://pip.pypa.io/en/stable/news
   - robocorp-truststore=0.8.0         # https://pypi.org/project/robocorp-truststore/
-  - nodejs=16.20.2                    # https://github.com/nodejs/node/blob/main/CHANGELOG.md
+  - nodejs=22.5.1                     # https://github.com/nodejs/node/blob/main/CHANGELOG.md
   - pip:
-    - robotframework-browser==17.5.2  # https://github.com/MarketSquare/robotframework-browser/releases
-    - rpaframework==27.7.0            # https://rpaframework.org/releasenotes.html
-
+    - robotframework-browser==18.6.3  # https://github.com/MarketSquare/robotframework-browser/releases
+    - rpaframework==28.6.2            # https://rpaframework.org/releasenotes.html
 rccPostInstall:
   - rfbrowser init                    # Initialize Playwright

@@ -16,3 +16,4 @@ testrun/*
 .~lock*
 *.pkl
 challenge.xlsx
+testrun/

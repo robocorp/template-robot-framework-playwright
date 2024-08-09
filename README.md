@@ -4,9 +4,9 @@ Want to build a [Playwright](https://playwright.dev/)-based browser robot? Great
 
 This template robot:
 
-- Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
+- Uses [Robot Framework](https://robocorp.com/docs-robot-framework/languages-and-frameworks/robot-framework/basics) syntax.
 - Includes all the necessary dependencies and initialization commands (`conda.yaml`).
-- Solves the form challenge posted at http://rpachallenge.com. (`tasks.robot`).
+- Solves the form challenge posted at <http://rpachallenge.com>. (`tasks.robot`).
 
 ## RPA Form challenge
 
@@ -24,4 +24,4 @@ More in detail, when run, this robot will:
 
 ## Learning materials
 
-- [Using the Robot Framework Browser library, based on Playwright](https://robocorp.com/docs/development-guide/browser/playwright)
+- [Using the Robot Framework Browser library, based on Playwright](https://robocorp.com/docs-robot-framework/libraries/rpa-framework/rpa-browser)
